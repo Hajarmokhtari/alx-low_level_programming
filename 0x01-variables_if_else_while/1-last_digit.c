@@ -4,9 +4,9 @@
 
 /**
  * main - Entry point
- * Description: 'get the last degiti of number'
- * Return: always 0
- */
+ * Description: get the last degit of number
+ * Return: always 0 (Success)
+*/
 int main(void)
 {
 	int n;
