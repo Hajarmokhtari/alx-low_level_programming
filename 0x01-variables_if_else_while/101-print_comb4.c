@@ -19,10 +19,7 @@ int main(void)
 			l = 0;
 			while (l <= 9)
 			{
-				if (n != m &&
-					n < m &&
-					m != l &&
-					m < l)
+				if (n != m && n < m && m != l && m < l)
 				{
 					putchar(n + 48);
 					putchar(m + 48);
@@ -40,6 +37,6 @@ int main(void)
 		}
 		n++;
 	}
-	putchat('\n');
+	putchar('\n');
 	return (0);
 }
