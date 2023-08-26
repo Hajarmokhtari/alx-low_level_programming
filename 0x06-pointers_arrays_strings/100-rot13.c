@@ -16,12 +16,15 @@ char *rot13(char *s)
 
 	while (*s)
 	{
-		for (i = 0; i <= 52; i++)
+		for (i = 0; i < 52; i++)
 		{
-			if (*s == rot13[i])
+			if ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
 			{
-				*s = ROT13[i];
-				break;
+				if (*s == rot13[i])
+				{
+					*s = ROT13[i];
+					break;
+				}
 			}
 		}
 		s++;
