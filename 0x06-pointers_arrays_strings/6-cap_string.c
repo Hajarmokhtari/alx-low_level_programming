@@ -13,7 +13,7 @@ int isLower(char c)
 }
 
 /**
- * isDelimiter - determines whether ascii is deliniter
+ * isDelimiter - determines whether ascii is delimiter
  * @c: character
  * Return: 1 if true, 0 if false
 */
@@ -30,7 +30,7 @@ int isDelimiter(char c)
 }
 
 /**
- * cap_string -capitalizez all words of a tring
+ * cap_string -capitalizez all words of a string
  * @s: input string
  * Return: string with capitalized words
 */
