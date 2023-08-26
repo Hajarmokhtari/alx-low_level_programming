@@ -18,13 +18,10 @@ char *rot13(char *s)
 	{
 		for (i = 0; i < 52; i++)
 		{
-			if ((*s >= 'a' && *s <= 'z') || (*s >= 'A' && *s <= 'Z'))
+			if (*s == rot13[i])
 			{
-				if (*s == rot13[i])
-				{
-					*s = ROT13[i];
-					break;
-				}
+				*s = ROT13[i];
+				break;
 			}
 		}
 		s++;
