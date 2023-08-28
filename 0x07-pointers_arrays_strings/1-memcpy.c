@@ -9,9 +9,9 @@
  * Return: the pointer to dest.
 */
 
-char *_memcpy(char *dest, char *src, unigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	usigned int itr;
+	unsigned int itr;
 
 	for (itr = 0; itr < n; itr++)
 	{
