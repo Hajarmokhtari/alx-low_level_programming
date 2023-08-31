@@ -7,10 +7,10 @@
 */
 
 int is_palindrome(char *s);
-int check(char *s, int start, int end int mod);
+int check(char *s, int start, int end, int mod);
 int last_index(char *s)
 {
-	n = 0;
+int n = 0;
 
 if (*s > '\0')
 	n += last_index(s + 1) + 1;
