@@ -20,7 +20,7 @@ int _strlen(char *s)
  * @ac: int
  * @av: arguments
  * Return: string
-*/
+ */
 
 char *argstostr(int ac, char **av)
 {
@@ -45,4 +45,6 @@ char *argstostr(int ac, char **av)
 		s[cmpt] = '\n';
 		cmpt++;
 	}
+	s[cmpt] = '\0';
+	return (s);
 }
