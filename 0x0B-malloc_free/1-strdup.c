@@ -6,7 +6,7 @@
  * @str: string
  * Return: 0
 */
-i
+
 char *_strdup(char *str)
 {
 	int i = 0, size = 0;
