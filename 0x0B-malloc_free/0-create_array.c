@@ -20,4 +20,4 @@ char *create_array(unsigned int size, char c)
 		n[size] = c;
 
 	return (n);
-
+}	
