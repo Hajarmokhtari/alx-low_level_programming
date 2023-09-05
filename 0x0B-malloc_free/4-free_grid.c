@@ -3,9 +3,9 @@
 /**
  * free_grid - free the grid
  * @grid: grid of memories
- * @height: int
+ * @height: number of rows in the grid
  * Return: void
-*/
+ */
 
 void free_grid(int **grid, int height)
 {
@@ -13,5 +13,6 @@ void free_grid(int **grid, int height)
 
 	for (; i < height; i++)
 		free(grid[i]);
+
 	free(grid);
 }
