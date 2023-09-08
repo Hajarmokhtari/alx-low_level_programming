@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _puts - prints a string. followed by a new line
+ * _puts - prints a string, followed by a new line
  * @str: pointer to the string to print
  * Return: void
- */
+*/
 
 void _puts(char *str)
 {
@@ -21,7 +21,7 @@ void _puts(char *str)
  * _atoi - convert a string to an integer
  * @s: char type string
  * Return: integer converted
- */
+*/
 
 int _atoi(const char *s)
 {
@@ -49,7 +49,7 @@ int _atoi(const char *s)
  * print_int - print an integer
  * @n: int
  * Return: 0
- */
+*/
 
 void print_int(unsigned long int n)
 {
@@ -70,7 +70,7 @@ void print_int(unsigned long int n)
  * @argc: int
  * @argv: list
  * Return: 0
- */
+*/
 
 int main(int argc, char const *argv[])
 {
