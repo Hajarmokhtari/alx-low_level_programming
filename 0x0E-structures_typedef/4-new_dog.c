@@ -21,11 +21,11 @@ int _strlen(const char *str)
 /**
  * _strcopy - a function that returns @dest with a copy of a string from @src
  *
- * @stc: string to copy
+ * @src: string to copy
  * @dest: copy string to here
  *
  * Return: @dest
- */
+*/
 
 char *_strcopy(char *dest, char *src)
 {
@@ -42,12 +42,12 @@ char *_strcopy(char *dest, char *src)
  * new_dog - a function that creates a new dog
  *
  * @name: name of dog
- * @age of dog
+ * @age: age of dog
  * @owner: dog owner
  *
  * Return: struct pointer dog
  *         NULL if function fails
- */
+*/
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
