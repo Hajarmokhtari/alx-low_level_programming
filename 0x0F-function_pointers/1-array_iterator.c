@@ -1,4 +1,4 @@
-#include "funtion_pointer.h"
+#include "funtion_pointers.h"
 
 /**
  * array_iterator - maps an array through a func pointer
@@ -7,7 +7,8 @@
  * @action: function pointer
  *
  * Return: void
- */
+*/
+
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	int *end = array + size - 1;
