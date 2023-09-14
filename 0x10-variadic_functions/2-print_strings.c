@@ -16,7 +16,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	if (!n)
 	{
-		printf("\^n");
+		printf("\n");
 		return;
 	}
 	va_start(ap, n);
